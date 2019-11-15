@@ -1,0 +1,1832 @@
+Nov 15, 2019 4:15:00 PM seedu.planner.MainApp init
+INFO: =============================[ Initializing Planner ]===========================
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp initConfig
+INFO: Using config file : config.json
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.util.JsonUtil readJsonFile
+INFO: Json file config.json not found
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp initPrefs
+INFO: Using prefs file : preferences.json
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.util.JsonUtil readJsonFile
+INFO: Json file preferences.json not found
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.core.LogsCenter init
+INFO: currentLogLevel: INFO
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.util.JsonUtil readJsonFile
+INFO: Json file data\Sample\accommodation.json not found
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp initAccommodationManager
+INFO: Data file not found. Will be starting with a sample AccommodationManager
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.util.JsonUtil readJsonFile
+INFO: Json file data\Sample\activity.json not found
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp initActivityManager
+INFO: Data file not found. Will be starting with a sample ActivityManager
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.util.JsonUtil readJsonFile
+INFO: Json file data\Sample\contact.json not found
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp initContactManager
+INFO: Data file not found. Will be starting with a sample ContactManager
+Nov 15, 2019 4:15:01 PM seedu.planner.commons.util.JsonUtil readJsonFile
+INFO: Json file data\Sample\itinerary.json not found
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp initItinerary
+INFO: Data file not found. Will be starting with a sample Itinerary
+Nov 15, 2019 4:15:01 PM seedu.planner.MainApp start
+INFO: Starting Planner V0.6.0ea
+Nov 15, 2019 4:15:01 PM seedu.planner.ui.UiManager start
+INFO: Starting UI...
+Nov 15, 2019 4:15:43 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][help]
+Nov 15, 2019 4:15:43 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the help tab.
+Nov 15, 2019 4:15:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][help]
+Nov 15, 2019 4:15:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the help tab.
+Nov 15, 2019 4:16:10 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][exi]
+Nov 15, 2019 4:16:10 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: exi
+Nov 15, 2019 4:16:10 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][exi]
+Nov 15, 2019 4:16:10 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: exi
+Nov 15, 2019 4:16:11 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][exit]
+Nov 15, 2019 4:16:11 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Exiting Plan2Travel as requested ...
+Nov 15, 2019 4:16:11 PM seedu.planner.MainApp stop
+INFO: ============================ [ Stopping Plan2Travel ] =============================
+Nov 15, 2019 4:16:16 PM seedu.planner.MainApp init
+INFO: =============================[ Initializing Planner ]===========================
+Nov 15, 2019 4:16:17 PM seedu.planner.MainApp initConfig
+INFO: Using config file : config.json
+Nov 15, 2019 4:16:17 PM seedu.planner.MainApp initPrefs
+INFO: Using prefs file : preferences.json
+Nov 15, 2019 4:16:17 PM seedu.planner.commons.core.LogsCenter init
+INFO: currentLogLevel: INFO
+Nov 15, 2019 4:16:17 PM seedu.planner.MainApp start
+INFO: Starting Planner V0.6.0ea
+Nov 15, 2019 4:16:17 PM seedu.planner.ui.UiManager start
+INFO: Starting UI...
+Nov 15, 2019 4:16:42 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/120 p/65543221?]
+Nov 15, 2019 4:16:42 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/120 p/65543221?
+Nov 15, 2019 4:16:45 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/120 p/65543221]
+Nov 15, 2019 4:16:45 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD ACTIVITY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:16:45 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:16:45 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: New activity added: Visit Gundam Museum Location: Tokyo Phone: 65543221 Cost: $0.0 Duration: 120 Priority: 0 Tags: 
+Nov 15, 2019 4:16:49 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/120 p/65543221]
+Nov 15, 2019 4:16:49 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/120 p/65543221
+Nov 15, 2019 4:16:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/-10 p/65543221]
+Nov 15, 2019 4:16:53 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/-10 p/65543221
+Nov 15, 2019 4:16:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/1450 p/65543221]
+Nov 15, 2019 4:16:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/1450 p/65543221
+Nov 15, 2019 4:17:00 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/1450 p/65543221]
+Nov 15, 2019 4:17:00 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/1450 p/65543221
+Nov 15, 2019 4:17:00 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/1450 p/65543221]
+Nov 15, 2019 4:17:00 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/1450 p/65543221
+Nov 15, 2019 4:17:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/1441 p/65543221]
+Nov 15, 2019 4:17:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/1441 p/65543221
+Nov 15, 2019 4:17:04 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221]
+Nov 15, 2019 4:17:04 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221
+Nov 15, 2019 4:17:04 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221]
+Nov 15, 2019 4:17:04 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221
+Nov 15, 2019 4:17:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221]
+Nov 15, 2019 4:17:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221
+Nov 15, 2019 4:17:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221]
+Nov 15, 2019 4:17:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit Gundam Museum a/Tokyo du/14.4 p/65543221
+Nov 15, 2019 4:17:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view itinerary]
+Nov 15, 2019 4:17:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the itinerary!
+Nov 15, 2019 4:18:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set]
+Nov 15, 2019 4:18:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set
+Nov 15, 2019 4:18:12 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/PE]
+Nov 15, 2019 4:18:12 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:18:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/10000000000000000000000000000]
+Nov 15, 2019 4:18:33 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/10000000000000000000000000000
+Nov 15, 2019 4:18:45 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/00-02-1997]
+Nov 15, 2019 4:18:45 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/00-02-1997
+Nov 15, 2019 4:18:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/00-02-1997]
+Nov 15, 2019 4:18:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/00-02-1997
+Nov 15, 2019 4:18:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/00-02-1997]
+Nov 15, 2019 4:18:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/00-02-1997
+Nov 15, 2019 4:18:49 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/29-02-1997]
+Nov 15, 2019 4:18:49 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:19:18 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-97]
+Nov 15, 2019 4:19:18 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-97
+Nov 15, 2019 4:19:21 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:21 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:21 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:21 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:23 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India sd/30-02-1997]
+Nov 15, 2019 4:19:23 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India sd/30-02-1997
+Nov 15, 2019 4:19:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/Singapore sd/30-02-1997]
+Nov 15, 2019 4:19:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:22:43 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/   ]
+Nov 15, 2019 4:22:43 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/   
+Nov 15, 2019 4:22:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/   sd/11-11-2019]
+Nov 15, 2019 4:22:53 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/   sd/11-11-2019
+Nov 15, 2019 4:22:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/   sd/11-11-2019]
+Nov 15, 2019 4:22:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/   sd/11-11-2019
+Nov 15, 2019 4:22:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/   sd/11-11-2019]
+Nov 15, 2019 4:22:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/   sd/11-11-2019
+Nov 15, 2019 4:22:58 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/ --  sd/11-11-2019]
+Nov 15, 2019 4:22:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/ --  sd/11-11-2019
+Nov 15, 2019 4:23:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:35 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:35 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:35 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:35 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:35 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:35 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81]
+Nov 15, 2019 4:23:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81
+Nov 15, 2019 4:23:47 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81 /p 670000000000000 a/blank]
+Nov 15, 2019 4:23:47 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81 /p 670000000000000 a/blank
+Nov 15, 2019 4:23:48 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81 /p 670000000000000 a/blank]
+Nov 15, 2019 4:23:48 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81 /p 670000000000000 a/blank
+Nov 15, 2019 4:23:48 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81 /p 670000000000000 a/blank]
+Nov 15, 2019 4:23:48 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add accommodation n/Hotel 81 /p 670000000000000 a/blank
+Nov 15, 2019 4:23:58 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add accommodation n/Hotel 81  p/670000000000000 a/blank]
+Nov 15, 2019 4:23:58 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD ACCOMMODATION EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:23:58 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:23:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: New accommodation added: Hotel 81 Location: blank Phone: 670000000000000 Tags: 
+Nov 15, 2019 4:24:20 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/   ]
+Nov 15, 2019 4:24:20 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/   
+Nov 15, 2019 4:24:20 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/   ]
+Nov 15, 2019 4:24:20 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/   
+Nov 15, 2019 4:24:23 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/    ]
+Nov 15, 2019 4:24:23 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/    
+Nov 15, 2019 4:24:23 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/    ]
+Nov 15, 2019 4:24:23 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/    
+Nov 15, 2019 4:24:23 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/    ]
+Nov 15, 2019 4:24:23 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/    
+Nov 15, 2019 4:24:24 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/    ]
+Nov 15, 2019 4:24:24 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/    
+Nov 15, 2019 4:24:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/    a/    ]
+Nov 15, 2019 4:24:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/    a/    
+Nov 15, 2019 4:24:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/    a/    ]
+Nov 15, 2019 4:24:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/    a/    
+Nov 15, 2019 4:24:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/@@ ]
+Nov 15, 2019 4:24:33 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/@@ 
+Nov 15, 2019 4:24:34 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/@@ ]
+Nov 15, 2019 4:24:34 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/@@ 
+Nov 15, 2019 4:24:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/$$$]
+Nov 15, 2019 4:24:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/$$$
+Nov 15, 2019 4:24:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit accommodation 3 n/$$$]
+Nov 15, 2019 4:24:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit accommodation 3 n/$$$
+Nov 15, 2019 4:24:49 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete contact 10]
+Nov 15, 2019 4:24:49 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete contact 10
+Nov 15, 2019 4:24:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation 1000]
+Nov 15, 2019 4:24:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation 1000
+Nov 15, 2019 4:24:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation -1]
+Nov 15, 2019 4:24:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation -1
+Nov 15, 2019 4:24:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation -1]
+Nov 15, 2019 4:24:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation -1
+Nov 15, 2019 4:24:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation -1]
+Nov 15, 2019 4:24:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation -1
+Nov 15, 2019 4:24:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation -1]
+Nov 15, 2019 4:24:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation -1
+Nov 15, 2019 4:24:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation -1]
+Nov 15, 2019 4:24:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation -1
+Nov 15, 2019 4:25:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation 0]
+Nov 15, 2019 4:25:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation 0
+Nov 15, 2019 4:25:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation 0]
+Nov 15, 2019 4:25:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation 0
+Nov 15, 2019 4:25:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation 0]
+Nov 15, 2019 4:25:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation 0
+Nov 15, 2019 4:25:04 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation 0+1]
+Nov 15, 2019 4:25:04 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete accommodation 0+1
+Nov 15, 2019 4:25:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete accommodation 1]
+Nov 15, 2019 4:25:05 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE ACCOMMODATION EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:25:05 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:25:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted Accommodation: Mandarin Orchard Hotel Location: 333 Orchard Road Phone:  Tags: [5star]
+Nov 15, 2019 4:25:10 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 15, 2019 4:25:10 PM seedu.planner.logic.CommandHistory addToRedoStack
+INFO: ----------------[EVENT ADDED TO REDO STACK]
+Nov 15, 2019 4:25:10 PM seedu.planner.logic.events.delete.DeleteAccommodationEvent undo
+INFO: ----------------[UNDOING][DELETE ACCOMMODATION EVENT]
+Nov 15, 2019 4:25:10 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: New accommodation added: Mandarin Orchard Hotel Location: 333 Orchard Road Phone:  Tags: [5star]
+Nov 15, 2019 4:25:13 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 15, 2019 4:25:13 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE ACCOMMODATION EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:25:13 PM seedu.planner.logic.events.delete.DeleteAccommodationEvent redo
+INFO: ----------------[REDOING][DELETE ACCOMMODATION EVENT]
+Nov 15, 2019 4:25:13 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted Accommodation: Mandarin Orchard Hotel Location: 333 Orchard Road Phone:  Tags: [5star]
+Nov 15, 2019 4:25:15 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 15, 2019 4:25:15 PM seedu.planner.logic.CommandHistory addToRedoStack
+INFO: ----------------[EVENT ADDED TO REDO STACK]
+Nov 15, 2019 4:25:15 PM seedu.planner.logic.events.delete.DeleteAccommodationEvent undo
+INFO: ----------------[UNDOING][DELETE ACCOMMODATION EVENT]
+Nov 15, 2019 4:25:15 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: New accommodation added: Mandarin Orchard Hotel Location: 333 Orchard Road Phone:  Tags: [5star]
+Nov 15, 2019 4:25:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:26 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:26 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:26 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:26 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:26 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:26 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:28 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:28 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:28 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:28 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:28 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:28 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:28 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:28 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:30 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:30 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:31 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:31 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:31 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:31 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:25:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:25:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:27:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list abc]
+Nov 15, 2019 4:27:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list abc
+Nov 15, 2019 4:27:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list abc]
+Nov 15, 2019 4:27:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list abc
+Nov 15, 2019 4:27:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list abc]
+Nov 15, 2019 4:27:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list abc
+Nov 15, 2019 4:27:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:27:33 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:27:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:27:33 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:27:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Nov 15, 2019 4:27:33 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list
+Nov 15, 2019 4:27:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:38 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:38 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:38 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:38 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Nov 15, 2019 4:27:38 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Nov 15, 2019 4:27:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add ]
+Nov 15, 2019 4:27:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add 
+Nov 15, 2019 4:27:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add ]
+Nov 15, 2019 4:27:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add 
+Nov 15, 2019 4:27:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add ]
+Nov 15, 2019 4:27:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add 
+Nov 15, 2019 4:27:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add ]
+Nov 15, 2019 4:27:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add 
+Nov 15, 2019 4:27:40 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add  ]
+Nov 15, 2019 4:27:40 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add  
+Nov 15, 2019 4:27:40 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add  ]
+Nov 15, 2019 4:27:40 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add  
+Nov 15, 2019 4:27:40 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add  ]
+Nov 15, 2019 4:27:40 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add  
+Nov 15, 2019 4:27:41 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add  ]
+Nov 15, 2019 4:27:41 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add  
+Nov 15, 2019 4:28:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit]
+Nov 15, 2019 4:28:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit
+Nov 15, 2019 4:28:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit]
+Nov 15, 2019 4:28:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit
+Nov 15, 2019 4:28:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit]
+Nov 15, 2019 4:28:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit
+Nov 15, 2019 4:28:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit]
+Nov 15, 2019 4:28:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit
+Nov 15, 2019 4:28:20 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit]
+Nov 15, 2019 4:28:20 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit
+Nov 15, 2019 4:28:20 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit]
+Nov 15, 2019 4:28:20 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit
+Nov 15, 2019 4:28:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete]
+Nov 15, 2019 4:28:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete
+Nov 15, 2019 4:28:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete]
+Nov 15, 2019 4:28:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete
+Nov 15, 2019 4:28:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete]
+Nov 15, 2019 4:28:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete
+Nov 15, 2019 4:28:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete]
+Nov 15, 2019 4:28:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete
+Nov 15, 2019 4:28:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete]
+Nov 15, 2019 4:28:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete
+Nov 15, 2019 4:28:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view]
+Nov 15, 2019 4:28:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view
+Nov 15, 2019 4:28:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view]
+Nov 15, 2019 4:28:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view
+Nov 15, 2019 4:28:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view]
+Nov 15, 2019 4:28:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view
+Nov 15, 2019 4:28:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 10]
+Nov 15, 2019 4:28:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 10
+Nov 15, 2019 4:28:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 10]
+Nov 15, 2019 4:28:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 10
+Nov 15, 2019 4:28:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 10]
+Nov 15, 2019 4:28:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 10
+Nov 15, 2019 4:29:01 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 1.1]
+Nov 15, 2019 4:29:01 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 1.1
+Nov 15, 2019 4:29:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 1.1]
+Nov 15, 2019 4:29:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 1.1
+Nov 15, 2019 4:29:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 1.1]
+Nov 15, 2019 4:29:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 1.1
+Nov 15, 2019 4:29:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 7]
+Nov 15, 2019 4:29:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view accommodation 7
+Nov 15, 2019 4:29:07 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 6]
+Nov 15, 2019 4:29:07 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the accommodation tab!
+Nov 15, 2019 4:29:07 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:29:07 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:30:17 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit]
+Nov 15, 2019 4:30:17 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit
+Nov 15, 2019 4:30:17 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit]
+Nov 15, 2019 4:30:17 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit
+Nov 15, 2019 4:30:17 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit]
+Nov 15, 2019 4:30:17 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Visit
+Nov 15, 2019 4:30:40 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Visit du/111 a/here]
+Nov 15, 2019 4:30:40 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD ACTIVITY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:30:40 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:30:40 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: New activity added: Visit Location: here Phone:  Cost: $0.0 Duration: 111 Priority: 0 Tags: 
+Nov 15, 2019 4:30:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 7 p/1000]
+Nov 15, 2019 4:30:56 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit 7 p/1000
+Nov 15, 2019 4:30:58 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 7 p/1000]
+Nov 15, 2019 4:30:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit 7 p/1000
+Nov 15, 2019 4:30:58 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 7 p/1000]
+Nov 15, 2019 4:30:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit 7 p/1000
+Nov 15, 2019 4:30:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 7 p/1000]
+Nov 15, 2019 4:30:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit 7 p/1000
+Nov 15, 2019 4:31:24 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit activity 7 p/ 0000]
+Nov 15, 2019 4:31:24 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[EDIT ACTIVITY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:31:24 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:31:24 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Edited Activity: Visit Location: here Phone: 0000 Cost: $0.0 Duration: 111 Priority: 0 Tags: 
+Nov 15, 2019 4:31:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view 7]
+Nov 15, 2019 4:31:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view 7
+Nov 15, 2019 4:31:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view 7]
+Nov 15, 2019 4:31:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view 7
+Nov 15, 2019 4:31:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view 7]
+Nov 15, 2019 4:31:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view 7
+Nov 15, 2019 4:31:45 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view activity 7]
+Nov 15, 2019 4:31:45 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the activity tab!
+Nov 15, 2019 4:31:45 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:31:45 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:31:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list activity]
+Nov 15, 2019 4:31:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Listed all activities
+Nov 15, 2019 4:31:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:31:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:32:01 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view 3]
+Nov 15, 2019 4:32:01 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view 3
+Nov 15, 2019 4:32:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view 3]
+Nov 15, 2019 4:32:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view 3
+Nov 15, 2019 4:32:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view 3]
+Nov 15, 2019 4:32:03 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view 3
+Nov 15, 2019 4:32:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view accommodation 3]
+Nov 15, 2019 4:32:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the accommodation tab!
+Nov 15, 2019 4:32:35 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list dat]
+Nov 15, 2019 4:32:35 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list dat
+Nov 15, 2019 4:32:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day]
+Nov 15, 2019 4:32:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list day
+Nov 15, 2019 4:32:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day]
+Nov 15, 2019 4:32:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list day
+Nov 15, 2019 4:32:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day]
+Nov 15, 2019 4:32:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list day
+Nov 15, 2019 4:32:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day]
+Nov 15, 2019 4:32:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: list day
+Nov 15, 2019 4:32:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view dat]
+Nov 15, 2019 4:32:53 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view dat
+Nov 15, 2019 4:32:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view day]
+Nov 15, 2019 4:32:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view day
+Nov 15, 2019 4:32:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view day]
+Nov 15, 2019 4:32:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view day
+Nov 15, 2019 4:32:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view day]
+Nov 15, 2019 4:32:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: view day
+Nov 15, 2019 4:33:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 1]
+Nov 15, 2019 4:33:03 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 1]
+Nov 15, 2019 4:33:03 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:33:03 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:33:03 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:33:03 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:33:08 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 2]
+Nov 15, 2019 4:33:08 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 2]
+Nov 15, 2019 4:33:08 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:33:08 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:33:08 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:33:08 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:33:42 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 5]
+Nov 15, 2019 4:33:42 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise 5
+Nov 15, 2019 4:33:42 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 5]
+Nov 15, 2019 4:33:42 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise 5
+Nov 15, 2019 4:33:43 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 5]
+Nov 15, 2019 4:33:43 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise 5
+Nov 15, 2019 4:33:44 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 2]
+Nov 15, 2019 4:33:44 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 2]
+Nov 15, 2019 4:33:44 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:33:44 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:33:44 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:33:44 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:33:48 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 1]
+Nov 15, 2019 4:33:48 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 1]
+Nov 15, 2019 4:33:48 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:33:48 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:33:48 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:33:48 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:33:49 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:33:49 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:33:49 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:33:49 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:33:51 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 4]
+Nov 15, 2019 4:33:51 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise 4
+Nov 15, 2019 4:33:51 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 4]
+Nov 15, 2019 4:33:51 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise 4
+Nov 15, 2019 4:33:52 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 4]
+Nov 15, 2019 4:33:52 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise 4
+Nov 15, 2019 4:33:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 3]
+Nov 15, 2019 4:33:53 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 3]
+Nov 15, 2019 4:33:53 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:33:53 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:33:53 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:33:53 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:34:13 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 4:34:13 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: load n/Singapore
+Nov 15, 2019 4:34:13 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 4:34:13 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: load n/Singapore
+Nov 15, 2019 4:34:22 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 4:34:22 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: load n/India
+Nov 15, 2019 4:34:28 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][new n/India]
+Nov 15, 2019 4:34:28 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner created!
+Nov 15, 2019 4:35:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Taj Mahal du/180]
+Nov 15, 2019 4:35:03 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add activity n/Taj Mahal du/180
+Nov 15, 2019 4:35:12 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add activity n/Taj Mahal du/180 a/blank]
+Nov 15, 2019 4:35:12 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD ACTIVITY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:35:12 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:35:12 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: New activity added: Taj Mahal Location: blank Phone:  Cost: $0.0 Duration: 180 Priority: 0 Tags: 
+Nov 15, 2019 4:35:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view itinerary]
+Nov 15, 2019 4:35:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the itinerary!
+Nov 15, 2019 4:35:41 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view info]
+Nov 15, 2019 4:35:41 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the info tab!
+Nov 15, 2019 4:35:47 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view itinerary]
+Nov 15, 2019 4:35:47 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the itinerary!
+Nov 15, 2019 4:36:00 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India]
+Nov 15, 2019 4:36:00 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India
+Nov 15, 2019 4:37:12 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][planner]
+Nov 15, 2019 4:37:12 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: planner
+Nov 15, 2019 4:37:12 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][planner]
+Nov 15, 2019 4:37:12 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: planner
+Nov 15, 2019 4:37:12 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][planner]
+Nov 15, 2019 4:37:12 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: planner
+Nov 15, 2019 4:37:15 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][planner]
+Nov 15, 2019 4:37:15 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: planner
+Nov 15, 2019 4:37:15 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][planner]
+Nov 15, 2019 4:37:15 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: planner
+Nov 15, 2019 4:37:44 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India]
+Nov 15, 2019 4:37:44 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India
+Nov 15, 2019 4:37:44 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India]
+Nov 15, 2019 4:37:44 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set n/India
+Nov 15, 2019 4:37:47 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/China]
+Nov 15, 2019 4:37:48 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:37:52 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set n/India]
+Nov 15, 2019 4:37:52 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:38:11 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set sd/03-13-1997]
+Nov 15, 2019 4:38:11 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: set sd/03-13-1997
+Nov 15, 2019 4:38:15 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set sd/03-12-1997]
+Nov 15, 2019 4:38:15 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:39:00 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 10]
+Nov 15, 2019 4:39:00 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:39:00 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:39:00 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: 10 day(s) added
+Nov 15, 2019 4:39:10 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 3]
+Nov 15, 2019 4:39:10 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:39:10 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:39:10 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 3
+Nov 15, 2019 4:39:15 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 0]
+Nov 15, 2019 4:39:15 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete day 0
+Nov 15, 2019 4:39:17 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:39:17 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:39:17 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:39:17 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:39:21 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete dat 1]
+Nov 15, 2019 4:39:21 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete dat 1
+Nov 15, 2019 4:39:23 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:39:23 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:39:23 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:39:23 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:39:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 2]
+Nov 15, 2019 4:39:37 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:39:37 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:39:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 2
+Nov 15, 2019 4:40:11 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1400 d/1]
+Nov 15, 2019 4:40:11 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:40:11 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:40:11 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:40:20 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:40:20 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:40:20 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:40:20 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:40:34 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 3]
+Nov 15, 2019 4:40:34 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:40:34 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:40:34 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: 3 day(s) added
+Nov 15, 2019 4:40:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/0 d/1]
+Nov 15, 2019 4:40:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/0 d/1
+Nov 15, 2019 4:41:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/00 d/1]
+Nov 15, 2019 4:41:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/00 d/1
+Nov 15, 2019 4:41:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/00 d/1]
+Nov 15, 2019 4:41:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/00 d/1
+Nov 15, 2019 4:41:02 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/00 d/1]
+Nov 15, 2019 4:41:02 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/00 d/1
+Nov 15, 2019 4:41:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/000 d/1]
+Nov 15, 2019 4:41:03 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/000 d/1
+Nov 15, 2019 4:41:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/000 d/1]
+Nov 15, 2019 4:41:03 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/000 d/1
+Nov 15, 2019 4:41:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/000 d/1]
+Nov 15, 2019 4:41:03 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/000 d/1
+Nov 15, 2019 4:41:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/00 d/1]
+Nov 15, 2019 4:41:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/00 d/1
+Nov 15, 2019 4:41:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/00 d/1]
+Nov 15, 2019 4:41:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/00 d/1
+Nov 15, 2019 4:41:07 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/00 d/1]
+Nov 15, 2019 4:41:07 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/00 d/1
+Nov 15, 2019 4:44:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:07 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:07 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:07 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2500 d/1]
+Nov 15, 2019 4:44:07 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/2500 d/1
+Nov 15, 2019 4:44:09 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2300 d/1]
+Nov 15, 2019 4:44:09 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:44:09 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:44:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:44:18 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 15, 2019 4:44:18 PM seedu.planner.logic.CommandHistory addToRedoStack
+INFO: ----------------[EVENT ADDED TO REDO STACK]
+Nov 15, 2019 4:44:18 PM seedu.planner.logic.events.schedule.ScheduleEvent undo
+INFO: ----------------[UNDOING][SCHEDULE EVENT]
+Nov 15, 2019 4:44:18 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity 1 unscheduled from Day 1
+Nov 15, 2019 4:44:20 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 15, 2019 4:44:20 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:44:20 PM seedu.planner.logic.events.schedule.ScheduleEvent redo
+INFO: ----------------[REDOING][SCHEDULE EVENT]
+Nov 15, 2019 4:44:20 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:45:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 15, 2019 4:45:33 PM seedu.planner.logic.CommandHistory addToRedoStack
+INFO: ----------------[EVENT ADDED TO REDO STACK]
+Nov 15, 2019 4:45:33 PM seedu.planner.logic.events.schedule.ScheduleEvent undo
+INFO: ----------------[UNDOING][SCHEDULE EVENT]
+Nov 15, 2019 4:45:33 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity 1 unscheduled from Day 1
+Nov 15, 2019 4:45:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2300 d/1]
+Nov 15, 2019 4:45:54 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:45:54 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:45:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:45:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 15, 2019 4:45:56 PM seedu.planner.logic.CommandHistory addToRedoStack
+INFO: ----------------[EVENT ADDED TO REDO STACK]
+Nov 15, 2019 4:45:56 PM seedu.planner.logic.events.schedule.ScheduleEvent undo
+INFO: ----------------[UNDOING][SCHEDULE EVENT]
+Nov 15, 2019 4:45:56 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity 1 unscheduled from Day 1
+Nov 15, 2019 4:47:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/2300 d/1]
+Nov 15, 2019 4:47:32 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:47:32 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:47:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:48:34 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedul 1 st/1200 d/1]
+Nov 15, 2019 4:48:34 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedul 1 st/1200 d/1
+Nov 15, 2019 4:48:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedul 1 st/1200 d/1]
+Nov 15, 2019 4:48:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedul 1 st/1200 d/1
+Nov 15, 2019 4:48:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedul 1 st/1200 d/1]
+Nov 15, 2019 4:48:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedul 1 st/1200 d/1
+Nov 15, 2019 4:48:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedul 1 st/1200 d/1]
+Nov 15, 2019 4:48:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedul 1 st/1200 d/1
+Nov 15, 2019 4:48:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1200 d/1]
+Nov 15, 2019 4:48:39 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:48:39 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:48:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:48:50 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/0000 d/1]
+Nov 15, 2019 4:48:50 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:48:50 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:48:50 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 4:51:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise]
+Nov 15, 2019 4:51:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise
+Nov 15, 2019 4:51:05 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise]
+Nov 15, 2019 4:51:05 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: optimise
+Nov 15, 2019 4:51:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 1]
+Nov 15, 2019 4:51:06 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 1]
+Nov 15, 2019 4:51:06 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:51:06 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:51:06 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:51:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:51:40 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 1]
+Nov 15, 2019 4:51:40 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 1]
+Nov 15, 2019 4:51:40 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:51:40 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:51:40 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 4:51:40 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 4:52:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][export]
+Nov 15, 2019 4:52:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: export
+Nov 15, 2019 4:52:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view info]
+Nov 15, 2019 4:52:56 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the info tab!
+Nov 15, 2019 4:52:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view help]
+Nov 15, 2019 4:52:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the help tab!
+Nov 15, 2019 4:53:09 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view itinerary]
+Nov 15, 2019 4:53:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the itinerary!
+Nov 15, 2019 4:53:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set sd/11-11-2019]
+Nov 15, 2019 4:53:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:53:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:53:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:53:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:53:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:53:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:53:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:53:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set sd/10-11-2020]
+Nov 15, 2019 4:53:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:54:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set sd/10-10-2019]
+Nov 15, 2019 4:54:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:54:09 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:54:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:54:09 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:54:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:54:09 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:54:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:54:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:19 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:19 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:19 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:54:23 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 3]
+Nov 15, 2019 4:54:23 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:23 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:23 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 3
+Nov 15, 2019 4:54:27 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:27 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:27 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:27 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:54:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:29 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:29 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:54:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:32 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:32 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:54:35 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:35 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:35 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:35 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:54:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:39 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:39 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:54:42 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 2]
+Nov 15, 2019 4:54:42 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: delete day 2
+Nov 15, 2019 4:54:43 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete day 1]
+Nov 15, 2019 4:54:43 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[DELETE DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:54:43 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:54:43 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Deleted day: 1
+Nov 15, 2019 4:55:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][set sd/10-10-1997]
+Nov 15, 2019 4:55:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Settings of planner changed!
+Nov 15, 2019 4:55:37 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1000]
+Nov 15, 2019 4:55:37 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1000
+Nov 15, 2019 4:55:42 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 100]
+Nov 15, 2019 4:55:42 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 100
+Nov 15, 2019 4:55:44 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:44 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:47 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:47 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:48 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:55:48 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 4:55:48 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 4:55:48 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: 15 day(s) added
+Nov 15, 2019 4:55:52 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 30]
+Nov 15, 2019 4:55:52 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 30
+Nov 15, 2019 4:55:54 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 40]
+Nov 15, 2019 4:55:54 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 40
+Nov 15, 2019 4:57:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:53 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:55 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:55 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:56 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:56 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:56 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:57:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 4:57:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 4:58:09 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 10]
+Nov 15, 2019 4:58:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 10
+Nov 15, 2019 4:58:10 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 10]
+Nov 15, 2019 4:58:10 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 10
+Nov 15, 2019 4:58:10 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 10]
+Nov 15, 2019 4:58:10 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 10
+Nov 15, 2019 4:58:13 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1]
+Nov 15, 2019 4:58:13 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1
+Nov 15, 2019 4:58:13 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1]
+Nov 15, 2019 4:58:13 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1
+Nov 15, 2019 4:58:14 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1]
+Nov 15, 2019 4:58:14 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1
+Nov 15, 2019 4:58:14 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1]
+Nov 15, 2019 4:58:14 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1
+Nov 15, 2019 4:58:14 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1]
+Nov 15, 2019 4:58:14 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1
+Nov 15, 2019 4:58:14 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 1]
+Nov 15, 2019 4:58:14 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 1
+Nov 15, 2019 4:59:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view itinerary]
+Nov 15, 2019 4:59:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the itinerary!
+Nov 15, 2019 4:59:56 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 4:59:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 4:59:58 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:59:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 4:59:58 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 15, 2019 4:59:58 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: 
+Nov 15, 2019 5:00:03 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:00:09 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:00:13 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 5:00:15 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:00:19 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:00:25 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:00:33 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 5:00:35 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:00:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 15]
+Nov 15, 2019 5:00:38 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: add days 15
+Nov 15, 2019 5:00:39 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add days 12]
+Nov 15, 2019 5:00:39 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[ADD DAY EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:00:39 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:00:39 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: 12 day(s) added
+Nov 15, 2019 5:00:44 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:00:49 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:00:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 5:00:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:01:38 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:01:44 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:03:04 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:03:04 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: load n/India
+Nov 15, 2019 5:03:07 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 5:03:13 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:03:50 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][exit]
+Nov 15, 2019 5:03:50 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Exiting Plan2Travel as requested ...
+Nov 15, 2019 5:03:50 PM seedu.planner.MainApp stop
+INFO: ============================ [ Stopping Plan2Travel ] =============================
+Nov 15, 2019 5:03:53 PM seedu.planner.MainApp init
+INFO: =============================[ Initializing Planner ]===========================
+Nov 15, 2019 5:03:54 PM seedu.planner.MainApp initConfig
+INFO: Using config file : config.json
+Nov 15, 2019 5:03:54 PM seedu.planner.MainApp initPrefs
+INFO: Using prefs file : preferences.json
+Nov 15, 2019 5:03:54 PM seedu.planner.commons.core.LogsCenter init
+INFO: currentLogLevel: INFO
+Nov 15, 2019 5:03:54 PM seedu.planner.MainApp start
+INFO: Starting Planner V0.6.0ea
+Nov 15, 2019 5:03:54 PM seedu.planner.ui.UiManager start
+INFO: Starting UI...
+Nov 15, 2019 5:04:00 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:04:00 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:04:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/Singapore]
+Nov 15, 2019 5:04:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:04:45 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1]
+Nov 15, 2019 5:04:45 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit contact 1
+Nov 15, 2019 5:04:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1]
+Nov 15, 2019 5:04:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit contact 1
+Nov 15, 2019 5:04:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1]
+Nov 15, 2019 5:04:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit contact 1
+Nov 15, 2019 5:04:46 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1]
+Nov 15, 2019 5:04:46 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: edit contact 1
+Nov 15, 2019 5:04:51 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1 n/blank]
+Nov 15, 2019 5:04:51 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[EDIT CONTACT EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:04:51 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:04:51 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Edited Contact: blank Phone: 87438807 Email: alexyeoh@example.com Address: Blk 30 Geylang Street 29, #06-40 Tags: [friends]
+Nov 15, 2019 5:05:06 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1 t/blank]
+Nov 15, 2019 5:05:06 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[EDIT CONTACT EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:05:06 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:05:06 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Edited Contact: blank Phone: 87438807 Email: alexyeoh@example.com Address: Blk 30 Geylang Street 29, #06-40 Tags: [blank]
+Nov 15, 2019 5:05:17 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit contact 1 n/1234567890]
+Nov 15, 2019 5:05:17 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[EDIT CONTACT EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:05:17 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:05:17 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Edited Contact: 1234567890 Phone: 87438807 Email: alexyeoh@example.com Address: Blk 30 Geylang Street 29, #06-40 Tags: [blank]
+Nov 15, 2019 5:05:41 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day 1]
+Nov 15, 2019 5:05:41 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Listed all activities in day
+Nov 15, 2019 5:05:44 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day 2]
+Nov 15, 2019 5:05:44 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Listed all activities in day
+Nov 15, 2019 5:05:48 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][load n/India]
+Nov 15, 2019 5:05:48 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Planner loaded!
+Nov 15, 2019 5:05:51 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list day 1]
+Nov 15, 2019 5:05:51 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Listed all activities in day
+Nov 15, 2019 5:05:59 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][view itinerary]
+Nov 15, 2019 5:05:59 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Opened the itinerary!
+Nov 15, 2019 5:06:11 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1000 d/1]
+Nov 15, 2019 5:06:11 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:06:11 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:06:11 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 5:06:24 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:24 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:25 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:25 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:25 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:25 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:25 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:25 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:26 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:26 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:26 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:26 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:28 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:28 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:29 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 sd/1000 d/1]
+Nov 15, 2019 5:06:29 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 sd/1000 d/1
+Nov 15, 2019 5:06:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1000 d/1]
+Nov 15, 2019 5:06:31 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/1000 d/1
+Nov 15, 2019 5:06:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1000 d/1]
+Nov 15, 2019 5:06:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/1000 d/1
+Nov 15, 2019 5:06:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1000 d/1]
+Nov 15, 2019 5:06:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/1000 d/1
+Nov 15, 2019 5:06:32 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1000 d/1]
+Nov 15, 2019 5:06:32 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 st/1000 d/1
+Nov 15, 2019 5:06:36 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1100 d/1]
+Nov 15, 2019 5:06:36 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:06:36 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:06:36 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 5:06:51 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 d/1]
+Nov 15, 2019 5:06:51 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: schedule 1 d/1
+Nov 15, 2019 5:06:57 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 d/1 st/1130]
+Nov 15, 2019 5:06:57 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:06:57 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:06:57 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 5:07:08 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1030 d/1]
+Nov 15, 2019 5:07:08 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:07:08 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:07:08 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 5:07:24 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][schedule 1 st/1001 d/1]
+Nov 15, 2019 5:07:24 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[SCHEDULE EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:07:24 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:07:24 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Activity scheduled to day 1
+Nov 15, 2019 5:07:31 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][optimise 1]
+Nov 15, 2019 5:07:31 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[OPTIMISING DAY 1]
+Nov 15, 2019 5:07:31 PM seedu.planner.logic.CommandHistory addToUndoStack
+INFO: ----------------[OPTIMISE BUDGET EVENT ADDED TO UNDO STACK]
+Nov 15, 2019 5:07:31 PM seedu.planner.logic.CommandHistory clearRedoStack
+INFO: ----------------[REDO EVENT STACK CLEARED]
+Nov 15, 2019 5:07:31 PM seedu.planner.logic.commands.OptimiseCommand execute
+INFO: ----------------[DAY OPTIMISED!]
+Nov 15, 2019 5:07:31 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Result: Day has been optimised!
+Nov 15, 2019 5:07:53 PM seedu.planner.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][unschedule 5]
+Nov 15, 2019 5:07:53 PM seedu.planner.ui.MainWindow executeCommand
+INFO: Invalid command: unschedule 5
